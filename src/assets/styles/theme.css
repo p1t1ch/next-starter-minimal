@@ -1,0 +1,37 @@
+:root {
+  /* Colors */
+  --color-primary: hsl(0deg 100% 50%);
+  --color-black: hsl(0deg 0% 0%);
+  --color-white: hsl(0deg 0% 100%);
+  --color-grey-50: hsl(0deg 0% 50%);
+
+  /* Grid */
+  --spacing-base: 8px;
+  --spacing-1: calc(var(--spacing-base) * 1);
+  --spacing-2: calc(var(--spacing-base) * 2);
+  --spacing-3: calc(var(--spacing-base) * 3);
+  --spacing-4: calc(var(--spacing-base) * 4);
+  --spacing-5: calc(var(--spacing-base) * 5);
+  --spacing-6: calc(var(--spacing-base) * 6);
+  --spacing-7: calc(var(--spacing-base) * 7);
+  --spacing-8: calc(var(--spacing-base) * 8);
+  --spacing-9: calc(var(--spacing-base) * 9);
+  --spacing-10: calc(var(--spacing-base) * 10);
+
+  /* Grid (small) */
+  --spacing-sm-base: 4px;
+  --spacing-sm-1: calc(var(--spacing-sm-base) * 1);
+  --spacing-sm-3: calc(var(--spacing-sm-base) * 3);
+  --spacing-sm-5: calc(var(--spacing-sm-base) * 5);
+  --spacing-sm-7: calc(var(--spacing-sm-base) * 7);
+  --spacing-sm-9: calc(var(--spacing-sm-base) * 9);
+  --spacing-sm-11: calc(var(--spacing-sm-base) * 11);
+  --spacing-sm-13: calc(var(--spacing-sm-base) * 13);
+  --spacing-sm-15: calc(var(--spacing-sm-base) * 15);
+  --spacing-sm-17: calc(var(--spacing-sm-base) * 17);
+  --spacing-sm-19: calc(var(--spacing-sm-base) * 19);
+
+  /* Other */
+  --duration: 150ms;
+  --easing: ease;
+}

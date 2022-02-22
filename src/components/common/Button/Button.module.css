@@ -1,0 +1,29 @@
+.root {
+  display: grid;
+  place-items: center;
+}
+
+.variant {
+  &-primary {
+    background: var(--color-primary);
+    color: var(--color-white);
+  }
+}
+
+.size {
+  &-md {
+    height: var(--spacing-6);
+    padding: 0 var(--spacing-sm-5);
+  }
+}
+
+.rounded {
+  &-md {
+    border-radius: var(--spacing-2);
+  }
+
+  &-full {
+    border-radius: 50%;
+    aspect-ratio: 1;
+  }
+}
