@@ -16,12 +16,10 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@test-utils": ["test/test-utils.tsx"],
       "~icons/*": ["src/assets/icons/*"],
       "~images/*": ["src/assets/images/*"],
       "~styles/*": ["src/assets/styles/*"],
       "~components/*": ["src/components/*"],
-      "~containers/*": ["src/containers/*"],
       "~lib/*": ["src/lib/*"],
       "~types/*": ["src/types/*"]
     }

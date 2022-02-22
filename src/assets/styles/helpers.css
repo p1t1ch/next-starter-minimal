@@ -1,23 +1,6 @@
-.font-24 {
-  font-size: 1.5rem;
+.font-32 {
+  font-size: 2rem;
   line-height: 1.5;
-}
-
-.font-20 {
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.font-16 {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-.line-clamp {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  overflow: hidden;
 }
 
 .sr-only {
